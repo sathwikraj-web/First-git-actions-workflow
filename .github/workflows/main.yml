@@ -1,13 +1,13 @@
 name: Sathwik Raj
 
 on:
- push:
-  branches:[main]
+  push:
+    branches:[main]
 
 job:
- demo:
-  runs-on:ubuntu-latest
+  demo:
+    runs-on:ubuntu-latest
 
 steps:
- -name:Greetings
-  run:echo "HI"
+  - name:Greetings
+  run: echo "HI"
